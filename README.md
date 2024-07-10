@@ -6,7 +6,7 @@ This repository contains source codes and data for the preprint [Physics-driven 
  - We calculated the ACE2 binding residues (to be protected by the antibodies), as 'ace2_binding_residue'
  - We used [AbodyBuilder](https://opig.stats.ox.ac.uk/webapps/sabdab-sabpred/sabpred/abodybuilder/) to predict the 3D structures of the antibodies from the sequence.
  - We used the [ProABC2](https://wenmr.science.uu.nl/proabc2/) to predict the binding residues on the antibodies side.
- - We used the [Haddock](https://www.bonvinlab.org/software/haddock2.4/manual/) to predict the antibody-SARS-Cov-2 binding complex.
+ - We used the [HADDOCK](https://www.bonvinlab.org/software/haddock2.4/manual/) to predict the antibody-SARS-Cov-2 binding complex.
  - We used [Bayesian Activate Learning](https://pubmed.ncbi.nlm.nih.gov/32558561/) to refine the docking complexes and get a 'confidence score' for each conformation of the same antibody.
 
 ## Step 1-2: Embed antibody sequences using our novel antibody language model, [AbLM](https://github.com/Shen-Lab/AbLM), that is pretrained with protein domain sequences, fine-tuned with paired VH-VL sequences, using antibody-specific masking during training.  
