@@ -11,6 +11,7 @@ This repository contains source codes and data for the preprint [Physics-driven 
 
 ## Step 1-2: Embed antibody sequences using a novel antibody language model, AbLM, that is pretrained with protein domain sequences, fine-tuned with paired VH-VL sequences, using antibody-specific masking during training.    
 ![Architecture, Training, and Application of AbLM](AbLM.drawio.png)
+
 [Dedicated repository to AbLM](https://github.com/Shen-Lab/AbLM)
 
 ## Step 2: Predict the neutralization scores and the robustness to variants for all antibodies. All figures used in manuscripts are also generated using this jupyter notebook.
