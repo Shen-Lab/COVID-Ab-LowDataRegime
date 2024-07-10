@@ -9,7 +9,7 @@ This repository contains source codes and data for the preprint [Physics-driven 
  - We used the [Haddock](https://www.bonvinlab.org/software/haddock2.4/manual/) to predict the antibody-SARS-Cov-2 binding complex.
  - We used [Bayesian Activate Learning](https://pubmed.ncbi.nlm.nih.gov/32558561/) to refine the docking complexes and get a 'confidence score' for each conformation of the same antibody.
 
-## Step 1-2: Embed antibody sequences using a novel antibody language model, AbLM, that is pretrained with protein domain sequences, fine-tuned with paired VH-VL sequences, using antibody-specific masking during training.  
+## Step 1-2: Embed antibody sequences using a novel antibody language model, [AbLM](https://github.com/Shen-Lab/AbLM), that is pretrained with protein domain sequences, fine-tuned with paired VH-VL sequences, using antibody-specific masking during training.  
 [Dedicated repository to AbLM](https://github.com/Shen-Lab/AbLM)
 
 ![Architecture, Training, and Application of AbLM](AbLM.drawio.png)
