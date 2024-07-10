@@ -2,7 +2,7 @@
 
 This repository contains source codes and data for the preprint [Physics-driven structural docking and protein language models accelerate antibody screening and design for broad-spectrum antiviral therapy](https://www.biorxiv.org/content/10.1101/2024.03.01.582176v1)
 
-## Step 1-1: Predict the structure of antibodies from the sequences. Then predict the docking complex using the [Haddock](https://www.bonvinlab.org/software/haddock2.4/manual/)
+## Step 1-1: Predict the structure of antibodies from the sequences. Then predict the docking complex using [HADDOCK](https://www.bonvinlab.org/software/haddock2.4/manual/) and our own Bayesian Active Learning ([BAL](https://github.com/Shen-Lab/BAL))
  - We calculated the ACE2 binding residues (to be protected by the antibodies), as 'ace2_binding_residue'
  - We used [AbodyBuilder](https://opig.stats.ox.ac.uk/webapps/sabdab-sabpred/sabpred/abodybuilder/) to predict the 3D structures of the antibodies from the sequence.
  - We used the [ProABC2](https://wenmr.science.uu.nl/proabc2/) to predict the binding residues on the antibodies side.
