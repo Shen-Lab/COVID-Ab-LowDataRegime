@@ -19,3 +19,5 @@ This repository contains source codes and data for the preprint [Physics-driven 
 ## Step 2: Predict the neutralization scores and the robustness to variants for all antibodies. All figures used in manuscripts are also generated using this jupyter notebook.
  - We calculated the weighted average of the coverage rate of the ACE2 binding residues for each antibody, as the predicted neutralization score 'wt_neutralization_score'.
  - We used the Kriging and the experimental variant EC50 fold changes to predict the antibody robustness, as 'kriging_prediction_results_delta', 'kriging_prediction_results_omicron_ba1' and 'kriging_prediction_results_omicron_ba5'.
+
+Conda environment file, py38_covid.yml, is provided if you are interested in replicating our results and regenerating figures.
