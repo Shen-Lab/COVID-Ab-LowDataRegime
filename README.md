@@ -1,6 +1,6 @@
 # COVID-Ab-LowDataRegime
 
-This repository contains source codes and data for the preprint [Physics-driven structural docking and protein language models accelerate antibody screening and design for broad-spectrum antiviral therapy](https://www.biorxiv.org/content/10.1101/2024.03.01.582176v1)
+This repository contains source codes and data for the paper [Integrated antibody language model accelerates IgG screening and design for broad-spectrum antiviral therapy](https://doi.org/10.1016/j.isci.2025.113584)
 
 ## Step 1-1: Predict the structure of antibodies from the sequences. Then predict the docking complex using [HADDOCK](https://www.bonvinlab.org/software/haddock2.4/manual/) and our own Bayesian Active Learning ([BAL](https://github.com/Shen-Lab/BAL))
  - We calculated the ACE2 binding residues (to be protected by the antibodies), as 'ace2_binding_residue'
@@ -21,3 +21,15 @@ This repository contains source codes and data for the preprint [Physics-driven 
  - We used the Kriging and the experimental variant EC50 fold changes to predict the antibody robustness, as 'kriging_prediction_results_delta', 'kriging_prediction_results_omicron_ba1' and 'kriging_prediction_results_omicron_ba5'.
 
 Conda environment file, py38_covid.yml, is provided if you are interested in replicating our results and regenerating figures.
+
+## How to cite our paper:  
+```
+@article{almubarak2025integrated,
+  title={Integrated antibody language model accelerates IgG screening and design for broad-spectrum antiviral therapy},
+  author={Almubarak, Hannah F and Tan, Wuwei and Hoffmann, Andrew D and Sun, Yuanfei and Wei, Juncheng and El-Shennawy, Lamiaa and Squires, Joshua R and Dashzeveg, Nurmaa K and Simonton, Brooke and Jia, Yuzhi and others},
+  journal={iScience},
+  pages={113584},
+  year={2025},
+  publisher={Elsevier}
+}
+```
